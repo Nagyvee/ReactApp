@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.home-info-wrapper{
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    height: 570px;
+    background-size: 100% 570px;
+    background-repeat: no-repeat;
+    background-position: 10%;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 2em;
+    cursor: pointer;
+}
+
+.home-info-wrapper h2{
+    font-size: 53px;
+    padding-top: 17px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.home-info-wrapper h3{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+    font-size: 25px;
+}
+
+.home-info-wrapper h5{
+    color: rgb(0, 123, 255);
+    font-size: 18px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.home-info-wrapper span{
+    font-size: 18px;
+    margin: 0;
+    padding-top: 0;
+    color: red;
+}
+
+.flex-wrapper{
+    display: flex;
+}
+
+.macbook{
+    background-image: url(public/home-images/products/macbook.jpeg);
+}
+
+.imac{
+    background-image: url(public/home-images/products/imac.jpeg);
+}
+
+.ipad{
+    background-image: url(public/home-images/products/ipad.jpeg);
+}
+
+.iphone-15{
+    background-image: url(public/home-images/products/iphone15.jpeg);
+}
+
+.iphone-15-pro{
+    background-image: url(public/home-images/products/iphone15pro.jpeg);
+    color: white;
+}
+
+.series-9{
+    background-image: url(public/home-images/products/series9.jpeg);
+    color: white;
+}
+
+.ultra-2{
+    background-image: url(public/home-images/products/ultra.jpeg);
+}
+
+footer{
+    font-family: 'Poppins', sans-serif;
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: 23% 23% 23% 23%;
+    padding-left: 3em ;
+    list-style: none;
+    font-size: 11px;
+    border-top: solid gray 1px;
+    border-bottom: solid 1px gray;
+}
+
+.footer li:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    font-size: 12px;
+}
+
+.footer div{
+  padding: 3em;
+}
+
+.footer li{
+    margin: 8px;
+}
+
+footer h5{
+    font-size: 12px;
+    margin: 1em;
+    text-align: center;
+}
+
+footer p{
+    font-size: 12px;
+    margin-bottom: 4em;
+    text-align: center;
+}
+
+footer h3{
+    font-size: 15px;
+    margin-top: 2em;
+}
+
+@media screen and (max-width: 830px) {
+    .home-info-wrapper{
+        font-family: 'Poppins', sans-serif;
+        width: 100%;
+        height: 570px;
+        background-size: 100% cover;
+        background-repeat: no-repeat;
+        background-position: 10%;
+        text-align: center;
+        margin-top: 0;
+        margin-bottom: 2em;
+        cursor: pointer;
+    }
+    
+    .home-info-wrapper h2{
+        font-size: 40px;
+    }
+    
+    .home-info-wrapper h3{
+        font-size: 25px;
+    }
+    
+    .flex-wrapper{
+        display: grid ;
+    }
+}
